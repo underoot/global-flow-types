@@ -1,0 +1,19 @@
+{
+  "name": "global-flow-types",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "lint": "flow",
+    "lint:fixed": "flow --flowconfig-name .flowconfigwithlib"
+  },
+  "keywords": [
+    "flow",
+    "bug"
+  ],
+  "author": "Aleksandr Shoronov <me@underoot.ru>",
+  "license": "MIT",
+  "devDependencies": {
+    "flow-bin": "^0.85.0"
+  }
+}
